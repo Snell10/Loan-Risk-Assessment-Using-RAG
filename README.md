@@ -20,7 +20,7 @@ Loan_Risk_RAG/
 *  results/ # Evaluation tables, charts, and logs
 * README.md # Project documentation
 
-- Step 1
+Follow the below steps
 
 1. **Clone this repository**
    
@@ -28,13 +28,10 @@ Loan_Risk_RAG/
    
    cd Loan_Risk_RAG
 
--  Step 2
-     
 2. **Install Dependencies**
 
    pip install -U langchain langchain-community chromadb sentence-transformers transformers pandas
 
--  Step 3
   
 3. **Run the Notebook**
 
@@ -62,7 +59,6 @@ Sample domain-specific questions posed to the RAG system:
 * Empathy & Tone
 * Response Relevance
 
-Each model was scored from 1–5 based on its generated response across 10 loan-related scenarios.
 
 ## Environment
 
